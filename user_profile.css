@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.banner {
+    text-align:center;
+    color: #4CAF50;
+    padding: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Profilepic {
+    margin-top: 150px;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 10px solid #4CAF50;
+}
+
+.Hello {
+   margin-top: 20px;
+   font-weight: bold;
+}
+
+
+.profile-button {
+    background-color: #4caf50;
+    color:rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 5px 5px 8px #666666;
+}
+
+.profile-button:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 8px #4caf50;
+    color: #4caf50;
+    font-size: 16px;
+    font-weight: bold;
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+
+.profile-title {
+    margin-left: 10%;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 8%;
+    margin-right: 8%;
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-around
+}
+  
+.grid-container div {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.zoom-in {
+    padding: 20px;
+    transition: transform .6s;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+  
+.zoom-in:hover {
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+.Friends {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    justify-content: space-around;
+    border: 10px solid #4CAF50;
+}
+
+.grid-left {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 8%;
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-around
+}
+  
+.grid-left div {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.grid-right {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-right: 8%;
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-around
+}
+  
+.grid-right div {
+    text-align: center;
+    padding: 10px 0;
+}
+
+input[type="text" i] {
+    margin-bottom: 10px;
+    margin-top: 10px ;
+}
